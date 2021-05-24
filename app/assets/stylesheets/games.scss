@@ -1,0 +1,58 @@
+// Place all the styles related to the games controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+
+* {
+  font-family: 'Inter';
+}
+
+
+.letters-container {
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+h1, p{
+  display: flex;
+  justify-content: center;
+}
+
+.letterbox {
+  padding: 20px;
+  border-radius: 5px;
+  margin: 10px;
+  height: 16px;
+  width: 16px;
+  color: white;
+  background-color: blue;
+  box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2);
+  font-family: 'Inter';
+  text-align: center;
+}
+
+input[type="text"] {
+  margin-top: 8px;
+  margin-right: 8px;
+  padding: 5px;
+  text-align: center;
+}
+
+input[type="submit"] {
+  margin-top: 8px;
+  padding: 5px;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+}
+
+a {
+  font-size: 16px;
+  text-decoration: none;
+}
